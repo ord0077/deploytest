@@ -17,6 +17,4 @@ jobs:
         php-version: '8.0'
     - uses: actions/checkout@v2
     - name: Git
-    - uses: 'test'
-      with:
-        script: 'cd /var/www/html/test/deploytest && git pull'
+      run: 'cd /var/www/html/test/deploytest && git pull'
