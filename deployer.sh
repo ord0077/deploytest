@@ -10,3 +10,5 @@ echo "Deploying application ..."
 php artisan up
 
 echo "Application deployed!"
+
+# testing
