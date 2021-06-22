@@ -16,5 +16,5 @@ jobs:
       with:
         php-version: '8.0'
     - uses: actions/checkout@v2
-    - name: Copy .env
-      run: git pull
+    - name: Git
+    - uses: 'git pull'
