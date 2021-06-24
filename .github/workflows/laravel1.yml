@@ -9,7 +9,7 @@ on:
 jobs:
   laravel-tests:
 
-    runs-on: ubuntu-lates
+    runs-on: self-hosted
 
     steps:
 
