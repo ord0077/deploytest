@@ -13,6 +13,6 @@ jobs:
 
     steps:
 
-    - uses: actions/checkout@v2
-    - name: Git
+     uses: actions/checkout@v2
+     name: Git
       run: 'cd /var/www/html/test/deploytest && git pull'
